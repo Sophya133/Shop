@@ -1,17 +1,17 @@
 # e-shop
-# Пример адаптивной вёрстки интернет-магазина: CSS, SASS, БЭМ, Grid, Flex, Bootstrap, Fonts
+# Пример адаптивной вёрстки интернет-магазина: CSS,БЭМ, Grid, Flex, Bootstrap, Fonts
 
 ## Главная страница
-* https://sahstiva.github.io/e-shop/index.html
+*  https://htmlpreview.github.io/?https://github.com/Sophya133/Shop/blob/develop/index.html
 
 ## Страница каталога (верстка на grid)
-* https://sahstiva.github.io/e-shop/catalog.html
+*  https://htmlpreview.github.io/?https://github.com/Sophya133/Shop/blob/develop/catalog.html
 
 ## Страница корзины
-* https://sahstiva.github.io/e-shop/cart.html
+*  https://htmlpreview.github.io/?https://github.com/Sophya133/Shop/blob/develop/cart.html
 
 ## Страница регистрации
-* https://sahstiva.github.io/e-shop/register.html
+*  https://htmlpreview.github.io/?https://github.com/Sophya133/Shop/blob/develop/register.html
 
 ## Страница продукта (карусель на bootsrap)
-* https://sahstiva.github.io/e-shop/product.html
+*  https://htmlpreview.github.io/?https://github.com/Sophya133/Shop/blob/develop/product.html
