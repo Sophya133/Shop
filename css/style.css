@@ -7913,7 +7913,7 @@ input[type="radio"] {
 }
 
 .registration__list_item::before {
-  content: url("../img/marker_icon.png");
+  content: url("./img/marker_icon.png");
   position: absolute;
   left: -43px;
 }
