@@ -1,5 +1,5 @@
-# e-shop
-# Пример адаптивной вёрстки интернет-магазина: CSS,БЭМ, Grid, Flex, Bootstrap, Fonts
+# Juicy-Life
+# Пример адаптивной вёрстки интернет-магазина натуральных соков: CSS,БЭМ, Grid, Flex, Bootstrap, Fonts
 
 ## Главная страница
 *  https://htmlpreview.github.io/?https://github.com/Sophya133/Shop/blob/develop/index.html
@@ -10,8 +10,8 @@
 ## Страница корзины
 *  https://htmlpreview.github.io/?https://github.com/Sophya133/Shop/blob/develop/cart.html
 
-## Страница регистрации
+## Страница регистрации новых пользователей
 *  https://htmlpreview.github.io/?https://github.com/Sophya133/Shop/blob/develop/register.html
 
-## Страница продукта (карусель на bootsrap)
+## Страница о товаре (карусель-слайдер на bootsrap)
 *  https://htmlpreview.github.io/?https://github.com/Sophya133/Shop/blob/develop/product.html
