@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Интернет-магазин - о продукте</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="visually-hidden">О товаре</h1>
+        <div class="container header__wrapper">
+            <div class="header__logo_wrapper">
+                <a href="index.html"><img class="header__logo" src="img/free-icon-juice-1026692.png" width="44" height="38"
+                        alt="Логотип"></a>
+                <div class="header__button header__search_button">
+                    <img class="header__icon" src="img/поиск.png" width="53" height="54" alt="Поиск-лупа">
+                    <input type="search" class="header__search" placeholder="Найти">
+                </div>   
+            </div>
+            <div class="header__list_wrapper">
+                <ul class="header__list">
+                    <li><a href="register.html"><div class="header__button header__mobile_hide">
+                        <img class="header__icon" src="img/user.png" width="39" height="38"
+                        alt="Личный кабинет">
+                        </div></a></li>
+                    <li><a href="cart.html"><div class="header__button header__mobile_hide">
+                        <img class="header__icon" src="img/free-icon-cart-9438003.png" width="39" height="38"
+                        alt="Корзина">
+                        </div></a></li>
+                    <li><button type="button" class="header__button" id="menu_button">
+                         <img class="header__icon" src="img/list.png" width="42" height="38"
+                        alt="Меню бургер">
+                        </button>
+                     </li>              
+                </ul>
+            </div>
+        </div>
+        <nav class="header__navigation">
+                <img class="header__navigation_close" src="img/navigate_cross.png" width="23" height="23" alt="Крестик выхода">
+                <h2 class="header__navigation_heading">Ассортимент</h2>
+                <ul class="header__navigation_list">
+                <li>
+                    <a class="header__navigation_heading_link" href="#">
+                        <h3 class="header__navigation_list_heading">Детские</h3>
+                    </a>
+                    <ul>
+                        <li><a class="header__navigation_link" href="#">Фруктовые</a></li>
+                        <li><a class="header__navigation_link" href="#">Ягодные</a></li>
+                        <li><a class="header__navigation_link" href="#">Овощные</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="header__navigation_heading_link" href="#">
+                        <h3 class="header__navigation_list_heading">Смузи</h3>
+                    </a>
+                    <ul>
+                        <li><a class="header__navigation_link" href="#">Фруктовые</a></li>
+                        <li><a class="header__navigation_link" href="#">Ягодные</a></li>
+                        <li><a class="header__navigation_link" href="#">Овощные</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="header__navigation_heading_link" href="#">
+                        <h3 class="header__navigation_list_heading">Фреши</h3>
+                    </a>
+                    <ul>
+                        <li><a class="header__navigation_link" href="#">Фруктовые</a></li>
+                        <li><a class="header__navigation_link" href="#">Ягодные</a></li>
+                        <li><a class="header__navigation_link" href="#">Овощные</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="heading">
+            <div class="heading__wrapper container">
+                <h2 class="heading__heading">Новинки</h2>
+                <!-- Навигация на bootstrap -->
+                <ul class="nav justify-content-end heading__menu">
+                    <li class="nav-item">
+                        <a class="nav-link heading__nav-link heading__nav-link-first" aria-current="page"
+                            href="#">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link heading__nav-link" href="#">Смузи</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active heading__nav-link heading__active" href="#">Ягодные</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product__slider_wrapper">
+                <!-- Слайдер-карусель на bootstrap -->
+                <div id="carouselProductControls" class="carousel slide product__carousel" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active product__carousel-item">
+                            <img src="img/киви-смузи1.jpg" class="d-block w-100 product__carousel_img_1"
+                                alt="Кивовый смузи 1">
+                        </div>
+                        <div class="carousel-item product__carousel-item">
+                            <img src="img/киви-смузи2.jpg" class="d-block w-100 product__carousel_img_2"
+                                alt="Кивовый смузи 2">
+                        </div>
+                        <div class="carousel-item product__carousel-item">
+                            <img src="img/киви-смузи3.jpg" class="d-block w-100 product__carousel_img_3"
+                                alt="Кивовый смузи 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselProductControls"
+                        data-bs-slide="prev">
+                        <i class="fas fa-angle-left product__icon"></i>
+                        <span class="carousel-control-prev-icon product__carousel_icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Назад</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselProductControls"
+                        data-bs-slide="next">
+                        <i class="fas fa-angle-right product__icon"></i>
+                        <span class="carousel-control-next-icon product__carousel_icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Вперёд</span>
+                    </button>
+                </div>
+            </div>
+            <div class="product__desciption container">
+                <h2 class="product__chapter">Ягодные смузи</h2>
+                <div class="product__heading_divider"></div>
+                <h3 class="product__heading">Смузи из киви</h3>
+                <p class="product__text">Смузи из киви – это яркое, вкусное и полезное начало дня.
+                     Если вы включите в свой рацион вкусный зеленый напиток из киви, то результат не заставит себя ждать.
+                     У вас совершенно точно появится больше энергии, заметно улучшится настроение, улучшится пищеварение и уйдут лишние килограммы.
+                     Кроме того, ваши волосы станут расти лучше, улучшится состояние кожи.</p>
+                <p class="product__price">57.00 руб.</p>
+                <div class="product__divider"></div>
+                <ul class="nav product__menu">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle product__nav-link" data-bs-toggle="dropdown" href="#"
+                            role="button" aria-expanded="false">Выбрать к киви</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item product__dropdown-item" href="#">Банан</a></li>
+                            <li><a class="dropdown-item product__dropdown-item" href="#">Ананас</a></li>
+                            <li><a class="dropdown-item product__dropdown-item" href="#">Мята</a></li>
+                            <li><a class="dropdown-item product__dropdown-item" href="#">Персик</a></li>
+                            <li><a class="dropdown-item product__dropdown-item" href="#">Шпинат</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle product__nav-link" data-bs-toggle="dropdown" href="#"
+                            role="button" aria-expanded="false">Выбрать объём </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item product__dropdown-item" href="#">100 мл</a></li>
+                            <li><a class="dropdown-item product__dropdown-item" href="#">200 мл</a></li>
+                            <li><a class="dropdown-item product__dropdown-item" href="#">300 мл</a></li>
+                            <li><a class="dropdown-item product__dropdown-item" href="#">500 мл</a></li>
+                            <li><a class="dropdown-item product__dropdown-item" href="#">1000 мл</a></li>
+                            <li><a class="dropdown-item product__dropdown-item" href="#">3000 мл</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle product__nav-link" data-bs-toggle="dropdown" href="#"
+                            role="button" aria-expanded="false">Количество</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item product__dropdown-item" href="#">1</a></li>
+                            <li><a class="dropdown-item product__dropdown-item" href="#">2</a></li>
+                            <li><a class="dropdown-item product__dropdown-item" href="#">3</a></li>
+                            <li><a class="dropdown-item product__dropdown-item" href="#">4</a></li>
+                            <li><a class="dropdown-item product__dropdown-item" href="#">5</a></li>
+                            <li><a class="dropdown-item product__dropdown-item" href="#">Больше</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="product__addtocart">
+                    <img src="img/free-icon-cart-9438003.png" height="40px" width= "40px"alt="Добавить в корзину"class="product__addtocart_btnimg"  >
+                    <div class="product__addtocart_btntxt">Добавить в корзину</div>
+                </div>
+            </div>
+        </section>
+        <section class="featured featured__product_page container">
+            <h2 class="visually-hidden">Товары</h2>
+            <p class="visually-hidden">Посмотреть товары подробнее</p>
+            <ul class="featured__list">
+                <li class="featured__item">
+                    <div class="featured__item_imgwrapper">
+                        <img class="featured__item_img" src="img/смузи-киви.jpg" alt="Смузи киви-ананас">
+                        <div class="featured__item_overlay"></div>
+                    <a href="product.html"><button type="button" class="featured__item_button">
+                        <img src="img/подробнее.png" height="50px" width= "50px"alt="Подробнее о товаре" class="featured__item_btnimg" >
+                        <span class="featured__item_btntxt">Подробнее</span>
+                    </button> </a>
+                    <h3 class="featured__item_heading">Juicy Life Смузи</h3>
+                    <p class="featured__item_text">В состав входят киви, ананас, яблоко, апельсин.</p>
+                    <p class="featured__item_price">57.00 руб.</p>
+                </li>
+                <li class="featured__item">
+                    <div class="featured__item_imgwrapper">
+                        <img class="catalog__item-img" src="img/черника.jpg" alt="Смузи ежевика">
+                        <div class="featured__item_overlay"></div>
+                        <a href="product.html"><button type="button" class="featured__item_button">
+                            <img src="img/подробнее.png" height="50px" width= "50px"alt="Подробнее о товаре" class="featured__item_btnimg" >
+                            <span class="featured__item_btntxt">Подробнее</span>
+                        </button> </a>
+                    </div>
+                    <h3 class="catalog__item-heading">Лесной смузи</h3>
+                    <p class="catalog__item-text">В состав входят ежевика, черника, голубика, чёрная смородина.</p>
+                    <p class="catalog__item-price">62.00 руб.</p>
+                </li>
+                <li class="featured__item featured__product_item">
+                    <div class="featured__item_imgwrapper">
+                        <img class="catalog__item-img" src="img/смузи-клубника.jpg" alt="Клубничный смузи">
+                        <div class="featured__item_overlay"></div>
+                        <a href="product.html"><button type="button" class="featured__item_button">
+                            <img src="img/подробнее.png" height="50px" width= "50px"alt="Подробнее о товаре" class="featured__item_btnimg" >
+                            <span class="featured__item_btntxt">Подробнее</span>
+                        </button> </a>
+                    </div>
+                    <h3 class="catalog__item-heading">Клубничный рай</h3>
+                    <p class="catalog__item-text">В состав входят клубника, земляника, гуава.</p>
+                    <p class="catalog__item-price">48.00 руб.</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <section class="subscribe">
+            <div class="container subscribe__wrapper">
+                <h2 class="visually-hidden">Subscribe</h2>
+                <ul class="subscribe__list">
+                    <li class="subscribe__list_item">
+                        <img class="subscribe__list_item_img" src="img/чемпион.jpg" height="134" alt="Промоакции">
+                        <p class="subscribe__list_item_text">“Фрукты! Солнце! И ничего больше.
+                            Стоит только захотеть. Чистая победа.
+                            <span class="subscribe__list_item_italic">В здоровом теле - здоровый сок!“</span></p>
+                    </li>
+                    <li class="subscribe__list_item">
+                        <h3 class="subscribe__list_item_heading">Подпишитесь</h3>
+                        <h4 class="subscribe__list_item_subheading">на новости о новинках и скидках</h4>
+                        <div class="subscribe__list_input_wrapper">
+                            <input class="subscribe__list_item_input" type="text" placeholder="Ваш Email">
+                            <button type="submit" class="subscribe__list_item_button">подписаться</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="copyright">
+            <h2 class="visually-hidden">Copyright</h2>
+            <ul class="copyright__list container">
+                <li>
+                    <p class="copyright__list_text">&copy; 2023 Михайлова М3О-233Б-21 Juicy Life All Rights Reserved.</p>
+                </li>
+                <li>
+                    <ul class="copyright__list_social">
+                        <li class="copyright__list_social_item"><i
+                                class="fab fa-vk copyright__list_social_icon"></i></li>
+                        <li class="copyright__list_social_item"><i
+                                class="fab fa-telegram copyright__list_social_icon"></i></li>
+                        <li class="copyright__list_social_item"><i
+                                class="fab fa-whatsapp copyright__list_social_icon"></i></li>
+                        <li class="copyright__list_social_item"><i
+                                class="fab fa-viber copyright__list_social_icon"></i></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
