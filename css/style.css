@@ -7147,7 +7147,7 @@ readers do not read off random characters that represent icons */
 }
 
 .subscribe {
-  background: url("../img/брызги.png"), rgba(222, 219, 219, 0.7);
+  background: url("./img/брызги.png"), rgba(222, 219, 219, 0.7);
   background-position: left bottom;
   /* background-repeat: no-repeat; */
   background-size: 100% 100%; 
