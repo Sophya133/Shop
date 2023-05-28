@@ -8032,7 +8032,6 @@ input[type="radio"] {
 
 .cart__list-wrapper::after {
   position: absolute;
-  content: url("../img/cross.svg");
   top: 20px;
   right: 20px;
 }
@@ -8502,37 +8501,37 @@ input[type="radio"] {
 
 @media (max-width: 768px) {
   .product__carousel_img_1 {
-    content: url("../img/киви-смузи1.jpg");
+    content: url("./img/киви-смузи1.jpg");
   }
 }
 
 @media (max-width: 635px) {
   .product__carousel_img_1 {
-    content: url("../img/киви-смузи1.jpg");
+    content: url("./img/киви-смузи1.jpg");
   }
 }
 
 @media (max-width: 768px) {
   .product__carousel_img_2 {
-    content: url("../img/киви-смузи2.jpg");
+    content: url("./img/киви-смузи2.jpg");
   }
 }
 
 @media (max-width: 635px) {
   .product__carousel_img_2 {
-    content: url("../img/киви-смузи2.jpg");
+    content: url("./img/киви-смузи2.jpg");
   }
 }
 
 @media (max-width: 768px) {
   .product__carousel_img_3 {
-    content: url("../img/киви-смузи3.jpg");
+    content: url("./img/киви-смузи3.jpg");
   }
 }
 
 @media (max-width: 635px) {
   .product__carousel_img_3 {
-    content: url("../img/киви-смузи3.jpg");
+    content: url("./img/киви-смузи3.jpg");
   }
 }
 
